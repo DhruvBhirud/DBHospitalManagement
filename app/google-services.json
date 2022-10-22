@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "399784174860",
+    "project_id": "dbhospitalmanagement",
+    "storage_bucket": "dbhospitalmanagement.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:399784174860:android:075190c3f7d0ce9032d529",
+        "android_client_info": {
+          "package_name": "com.db.dbhospitalmanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "399784174860-4m7t8933ah980blokrvr7kb8e8reths7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.db.dbhospitalmanagement",
+            "certificate_hash": "24ee020ec2acf4b83171d89a4a47632a1f5a5741"
+          }
+        },
+        {
+          "client_id": "399784174860-l50qqktf49cteqoada8ig33ddtf1ihqk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYqXQ-O0pkLNs7q9A3rSw9JQp2e7RWBjY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "399784174860-l50qqktf49cteqoada8ig33ddtf1ihqk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

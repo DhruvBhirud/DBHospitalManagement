@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".SelectRegistrationActivity"
+    android:layout_margin="10dp"
+    android:layout_gravity="center">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:src="@drawable/doctor"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="150dp"/>
+    <TextView
+        android:id="@+id/title"
+        android:text="@string/welcome_to_dbhospitalmanagement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#000"/>
+    <TextView
+        android:id="@+id/title2"
+        android:text="Select one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textColor="#000"/>
+
+    <Button
+        android:id="@+id/patientReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Patient Registration"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:textColor="#fff"
+        android:background="@drawable/buttons_background"/>
+    <Button
+        android:id="@+id/doctorReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Doctor Registration"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:textColor="#fff"
+        android:background="@drawable/buttons_background"/>
+
+    <TextView
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Already have an account? Login"
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textColor="#000"
+        android:gravity="center"
+        android:textSize="17sp"/>
+
+</LinearLayout>

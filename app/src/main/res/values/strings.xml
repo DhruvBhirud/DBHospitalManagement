@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">DBHospitalManagement</string>
+    <string name="welcome_to_dbhospitalmanagement">Welcome to DBHospitalManagement</string>
+    <string-array name="timeframes">
+        <item>Select the Time you are available</item>
+        <item>7:00 AM - 9:00 AM</item>
+        <item>9:00 AM - 11:00 AM</item>
+        <item>11:00 AM - 1:00 PM</item>
+        <item>1:00 PM - 3:00 PM</item>
+        <item>3:00 PM - 5:00 PM</item>
+    </string-array>
+    <string-array name="departments">
+        <item>Select your Department</item>
+        <item>Cardiology</item>
+        <item>Radiology</item>
+        <item>Dermatology</item>
+    </string-array>
+    <string-array name="specialization">
+        <item>Select your Specialization</item>
+        <item>General</item>
+        <item>Neurology</item>
+        <item>Oncology</item>
+    </string-array>
+
+</resources>
